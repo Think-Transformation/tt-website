@@ -1,0 +1,8 @@
+{
+  "name": "think-transformation-inc",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve -l 3001",
+    "preview": "npx serve -l 3001"
+  }
+}

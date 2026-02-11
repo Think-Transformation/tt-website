@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Think Transformation Inc - Transform Your Thinking. Parent company managing Experiencing Yah and other ventures."
+    />
+    <title>Think Transformation Inc</title>
+    <link rel="icon" type="image/svg+xml" href="TT-Logo.svg" />
+    <link rel="alternate icon" href="TT-Logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#hero">
+            <img src="TT-Logo.svg" alt="Think Transformation Inc" />
+          </a>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#development" class="nav-link">Development</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-accent"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Transform Your Thinking</h1>
+        <p class="hero-subtitle">
+          Empowering innovation across technology, development, and creative
+          ventures
+        </p>
+      </div>
+    </section>
+
+    <!-- Development Section -->
+    <section id="development" class="section development">
+      <div class="container">
+        <h2 class="section-title">Our Development Branch</h2>
+        <div class="content-card">
+          <p class="section-text">
+            <strong>Experiencing Yah</strong> is our development division,
+            dedicated to creating technology that helps people experience a
+            deeper relationship with the one true God. Through apps, books, and
+            digital resources, we build tools designed to support spiritual
+            growth and understanding.
+          </p>
+          <p class="section-text">
+            Our development work spans mobile applications, web platforms, and
+            content creation—all with a focus on quality, authenticity, and
+            meaningful impact. We partner with organizations and individuals to
+            bring innovative ideas to life.
+          </p>
+          <a
+            href="https://experiencingyah.com"
+            class="dev-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Experiencing Yah →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="content-card">
+          <p class="section-text">
+            Interested in working with us or learning more about our ventures?
+            Send us a message using the form below. We'll get back to you as
+            soon as possible.
+          </p>
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formspree.io/f/mregzzvk"
+            method="POST"
+          >
+            <!-- Honeypot field - hidden from users but visible to bots -->
+            <div
+              class="form-group honeypot"
+              style="position: absolute; left: -9999px; opacity: 0"
+            >
+              <label for="website">Website</label>
+              <input
+                type="text"
+                id="website"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div class="form-message" id="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Think Transformation Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
